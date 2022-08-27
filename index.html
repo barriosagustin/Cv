@@ -6,8 +6,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Agustin Barrios</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta content="Frontend developer, website, portfolio" name="description">
+  <meta content="HTML, CSS, JAVASCRIPT, Bootstrap" name="keywords">
 
   <!-- Favicons -->
   <link href="assets/img/favicon-32x32.png" rel="icon">
@@ -30,10 +30,6 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <!-- <h1 class="logo"><a href="https://github.com/barriosagustin?tab=repositories" target="_blank"><img
-            src="assets/img/linkedingimg.svg" alt=""></a></h1> -->
-
-      <!-- Uncomment below if you prefer to use an image logo -->
       <div class="logos">
         <a href="https://github.com/barriosagustin?tab=repositories" id="logo1" class="github" target="_blank"><img
             src="assets/img/git blue.png" class="img-fluid"></a>
@@ -49,9 +45,9 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Skills</a></li>
-          <li><a class="nav-link scrollto " href="#work">Resume</a></li>
-          <li><a class="nav-link scrollto " href="#blog">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="#Skills">Skills</a></li>
+          <li><a class="nav-link scrollto " href="#Resume">Resume</a></li>
+          <li><a class="nav-link scrollto " href="#Portfolio">Portfolio</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -101,7 +97,7 @@
                       <p><span class="title-s">Profile: </span> <span>full stack developer</span></p>
                       <p><span class="title-s">Email: </span> <span>Agusab2000@gmail.com</span></p>
                       <p><span class="title-s">Phone: </span> <span>+54 9 11 62670023</span></p>
-                      <p><span class="title-s">Age: </span> <span>22</span></p>
+                      <p><span class="title-s">Age: </span> <span id="age">22</span></p>
                       <p><span class="title-s">City: </span> <span>Buenos Aires, Argentina</span></p>
                     </div>
 
@@ -116,18 +112,20 @@
                       </h5>
                     </div>
                     <p class="lead">
-                      Hi Everyone, I am a Software developer working professionaly, despite of working I am continuously
+                      Hi Everyone, I am a Software developer working professionaly, despite of working I am
+                      continuously
                       searching for learning new things, technologies, languages and experiences.
                       I also study courses to improve my skills or learn new ones.
                     </p>
                     <p class="lead">
                       I am a curious person always looking to grow and achieve goals, I love technology and
-                      I enjoy my work day by day
+                      I enjoy my work day by day.
                     </p>
                     <p class="lead">
                       I would like to show and share with you a little bit of my experience and projects I have been
                       working on.
                     </p>
+                    <a href="/assets/img/Agustín Barrios CV-EN.pdf" id="cv" target="_blank" download="">Download CV</a>
                   </div>
                 </div>
               </div>
@@ -141,7 +139,7 @@
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Skills Section ======= -->
-    <section id="services" class="portfolio-mf sect-pt4 route">
+    <section id="Skills" class="portfolio-mf sect-pt4 route">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -198,21 +196,10 @@
             alt="The logo icon for MSSQL">
         </div>
 
-    </section><!-- End Portfolio Section -->
-    <!-- <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="copyright-box">
-              <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
-            </div>
-          </div>
-        </div>
-    </footer>
-    End  Footer -->
+    </section>
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="work" class="portfolio-mf sect-pt4 route">
+    <section id="Resume" class="portfolio-mf sect-pt4 route">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -244,24 +231,15 @@
             </div>
           </div>
         </div>
-        <!-- <div class="card">
-              <div class="info">
-                <h3 class="title">Title 2</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                  labore et dolore
-                  magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                  ex ea commodo
-                  consequat. </p>
-              </div>
-            </div> -->
 
 
-        <section id="work" class="portfolio-mf sect-pt4 route">
+
+        <section id="Resume" class="portfolio-mf sect-pt4 route">
           <div class="container">
             <div class="row">
               <div class="col-sm-12">
                 <div class="title-box text-center">
-                  <h3 class="title-a">
+                  <h3 class="title-a" id="pruebita">
                     Education
                   </h3>
                   <!-- <p class="subtitle-a">
@@ -275,24 +253,14 @@
             <!-- TIMELINE SECTION -->
             <div class="timeline">
               <div class="outer">
-                <!-- <div class="card">
-                  <div class="info">
-                    <h3 class="title">Bachelor in economics and administration</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                      labore et dolore
-                      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                      aliquip
-                      ex ea commodo
-                      consequat. </p>
-                  </div>
-                </div> -->
                 <div class="card">
                   <div class="info">
-                    <h3 class="title">Psychology</h3>
-                    <h4>Universidad de Buenos Aires (UBA)<p class="LocationH4">(Buenos Aires, Argentina)</p>
+                    <h3 class="title">C# .NET developer</h3>
+                    <h4> <a href="https://www.educacionit.com/" target="_blank">EducacionIT</a>
+                      <p class="LocationH4">(Buenos Aires, Argentina)</p>
                     </h4>
-                    <h5>March 2020 - June 2021</h5>
-                    <p>I completed 1 year of the career Before I started Studying programming.</p>
+                    <h5>June 2022 - October 2022</h5>
+                    <p>We built web Application with c#,.NET core, sql server, bootstrap.</p>
                   </div>
                 </div>
 
@@ -303,8 +271,8 @@
 
 
 
-        <!-- ======= Blog Section ======= -->
-        <section id="blog" class="blog-mf sect-pt4 route">
+        <!-- ======= Portfolio Section ======= -->
+        <section id="Portfolio" class="Portfolio-mf sect-pt4 route">
           <div class="container">
             <div class="row">
               <div class="col-sm-12">
@@ -321,7 +289,7 @@
             </div>
             <div class="row">
               <div class="col-md-4">
-                <div class="card card-blog">
+                <div class="card card-Portfolio">
                   <div class="card-img">
                     <a href="https://barriosagustin.github.io/WebDesign/" target="_blank"><img
                         src="assets/img/Screen_project.png" alt="" class="img-fluid"></a>
@@ -340,7 +308,7 @@
                 </div>
               </div>
               <div class="col-md-4">
-                <div class="card card-blog">
+                <div class="card card-Portfolio">
                   <div class="card-img">
                     <a href="https://barriosagustin.github.io/Quick-Quiz/" target="_blank"><img
                         src="assets/img/Quick_quiz_img.png" alt="" class="img-fluid"></a>
@@ -360,7 +328,7 @@
                 </div>
               </div>
               <div class="col-md-4">
-                <div class="card card-blog">
+                <div class="card card-Portfolio">
                   <div class="card-img">
                     <a href="https://barriosagustin.github.io/Buscador-de-imagenes/" target="_blank"><img
                         src="assets/img/Code_img.png" alt="" class="img-fluid"></a>
@@ -382,7 +350,7 @@
                 </div>
               </div>
               <div class="col-md-4">
-                <div class="card card-blog">
+                <div class="card card-Portfolio">
                   <div class="card-img">
                     <a href="https://barriosagustin.github.io/Sticky-Menu/" target="_blank"><img
                         src="assets/img/sticky_project.png" alt="" class="img-fluid"></a>
@@ -401,7 +369,7 @@
                   </div>
                 </div>
               </div>
-        </section><!-- End Blog Section -->
+        </section><!-- End Portfolio Section -->
 
 
 
@@ -433,6 +401,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
 
 </body>
 

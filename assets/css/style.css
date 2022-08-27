@@ -50,8 +50,8 @@ a:hover {
 }
 
 .box-shadow,
-.card-blog,
-.work-box,
+.card-Portfolio,
+.Resume-box,
 .service-box,
 .paralax-mf {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
@@ -240,7 +240,7 @@ a:hover {
 .widget-tags ul,
 .widget-sidebar .list-sidebar,
 .box-comments .list-comments,
-.blog-wrapper .post-meta ul,
+.Portfolio-wrapper .post-meta ul,
 .list-ico,
 .socials ul {
   list-style: none;
@@ -814,8 +814,26 @@ a:hover {
   background-color: #0078ff;
 }
 
+#cv {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  border-radius: 30px;
+  border: 1px solid #000;
+  padding: 10px 20px;
+  margin-top: 30px;
+  transition: .5s;
+
+}
+
+#cv:hover {
+  color: #0078ff;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
 /*--------------------------------------------------------------
-# Services
+# Skills
 --------------------------------------------------------------*/
 .service-box {
   background-color: #fff;
@@ -956,50 +974,50 @@ a:hover {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-.work-box {
+.Resume-box {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
 }
 
-.work-box:hover img {
+.Resume-box:hover img {
   transform: scale(1.3);
 }
 
-.work-img {
+.Resume-img {
   display: block;
   overflow: hidden;
 }
 
-.work-img img {
+.Resume-img img {
   transition: all 1s;
 }
 
-.work-content {
+.Resume-content {
   padding: 2rem 3% 1rem 4%;
 }
 
-.work-content .w-more {
+.Resume-content .w-more {
   color: #4e4e4e;
   font-size: 0.8rem;
 }
 
-.work-content .w-more .w-ctegory {
+.Resume-content .w-more .w-ctegory {
   color: #0078ff;
 }
 
-.work-content .w-like {
+.Resume-content .w-like {
   font-size: 2.5rem;
   color: #0078ff;
   float: right;
 }
 
-.work-content .w-like a {
+.Resume-content .w-like a {
   color: #0078ff;
 }
 
-.work-content .w-like .num-like {
+.Resume-content .w-like .num-like {
   font-size: 0.7rem;
 }
 
@@ -1245,19 +1263,19 @@ a:hover {
 }
 
 /*--------------------------------------------------------------
-# Blog
+# Portfolio
 --------------------------------------------------------------*/
 @media (min-width: 767px) {
-  .card-blog {
+  .card-Portfolio {
     margin-bottom: 3rem;
   }
 }
 
-.card-blog .card-body {
+.card-Portfolio .card-body {
   position: relative;
 }
 
-.card-blog .card-category-box {
+.card-Portfolio .card-category-box {
   position: absolute;
   text-align: center;
   top: -16px;
@@ -1267,7 +1285,7 @@ a:hover {
   overflow: hidden;
 }
 
-.card-blog .card-category {
+.card-Portfolio .card-category {
   display: inline-block;
   color: #fff;
   padding: 0 15px 5px;
@@ -1276,7 +1294,7 @@ a:hover {
   border-radius: 4px;
 }
 
-.card-blog .card-category .category {
+.card-Portfolio .card-category .category {
   color: #fff;
   display: inline-block;
   text-transform: uppercase;
@@ -1285,27 +1303,27 @@ a:hover {
   margin-bottom: 0;
 }
 
-.card-blog .card-title {
+.card-Portfolio .card-title {
   font-size: 1.3rem;
   margin-top: 0.6rem;
 }
 
-.card-blog .card-description {
+.card-Portfolio .card-description {
   color: #4e4e4e;
 }
 
-.card-blog .post-author {
+.card-Portfolio .post-author {
   display: inline-block;
 }
 
-.card-blog .post-date {
+.card-Portfolio .post-date {
   color: #4e4e4e;
   display: inline-block;
   float: right;
 }
 
 /*--------------------------------------------------------------
-# Blog Single
+# Portfolio Single
 --------------------------------------------------------------*/
 .post-box,
 .form-comments,
@@ -1326,39 +1344,39 @@ a:hover {
   }
 }
 
-.blog-wrapper .article-title {
+.Portfolio-wrapper .article-title {
   font-size: 1.5rem;
 }
 
 @media (min-width: 768px) {
-  .blog-wrapper .article-title {
+  .Portfolio-wrapper .article-title {
     font-size: 1.9rem;
   }
 }
 
-.blog-wrapper .post-meta {
+.Portfolio-wrapper .post-meta {
   margin: 1rem 0;
 }
 
-.blog-wrapper .post-meta ul {
+.Portfolio-wrapper .post-meta ul {
   border-left: 4px solid #0078ff;
   margin-top: 1rem;
 }
 
-.blog-wrapper .post-meta ul li {
+.Portfolio-wrapper .post-meta ul li {
   display: inline-block;
   margin-left: 15px;
 }
 
-.blog-wrapper .post-meta ul a {
+.Portfolio-wrapper .post-meta ul a {
   color: #0078ff;
 }
 
-.blog-wrapper .post-meta ul span {
+.Portfolio-wrapper .post-meta ul span {
   color: #1e1e1e;
 }
 
-.blog-wrapper .blockquote {
+.Portfolio-wrapper .blockquote {
   border-left: 4px solid #0078ff;
   padding: 18px;
   font-style: italic;
