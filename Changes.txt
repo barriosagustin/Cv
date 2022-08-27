@@ -1,0 +1,5 @@
+>24/08/2022
+-Cambio de información en tarjeta "education"
+-se cambian nombres de ID en el navbar
+-Se agrega opción para descargar el CV
+-Se agrega edad dinamica con js

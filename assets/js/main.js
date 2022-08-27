@@ -1,6 +1,23 @@
 (function () {
   "use strict";
 
+  /* Dynamic Age */
+  const getAge = () => {
+    let birth = new Date("2000-03-08");
+    let today = new Date();
+    let diffMonths = today.getMonth() - birth.getMonth();
+    let age = today.getFullYear() - birth.getFullYear();
+    if (
+      diffMonths < 0 ||
+      (diffMonths === 0 && hoy.getDate() < diffMonths.getDate())
+    ) {
+      age--;
+    }
+    return (document.getElementById("age").innerHTML = age);
+  };
+
+  // resume age
+  onload = getAge();
 
 
   /**
