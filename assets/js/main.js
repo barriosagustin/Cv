@@ -1,6 +1,64 @@
 (function () {
   "use strict";
 
+  /*ToolTippy*/
+  tippy('#devicon-html', {
+    content: 'html',
+  });
+  tippy('#devicon-css', {
+    content: 'css',
+  });
+  tippy('#devicon-javascript', {
+    content: 'Javascript',
+  });
+  tippy('#devicon-bootstrap', {
+    content: 'Bootstrap',
+  });
+  tippy('#devicon-angular', {
+    content: 'Angular',
+  });
+  tippy('#devicon-react', {
+    content: 'React',
+  });
+  tippy('#devicon-jquery', {
+    content: 'Jquery',
+  });
+  tippy('#devicon-net', {
+    content: '.NET',
+  });
+  tippy('#devicon-csharp', {
+    content: 'Csharp',
+  });
+  tippy('#devicon-git', {
+    content: 'Git',
+  });
+  tippy('#devicon-mongodb', {
+    content: 'MongoDB',
+  });
+  tippy('#devicon-mssql', {
+    content: 'SqlServer',
+  });
+  tippy('#web-design', {
+    content: 'Web design project',
+  });
+  tippy('#quick-quiz', {
+    content: 'Quick quiz game',
+  });
+  tippy('#image-finder', {
+    content: 'Search your image',
+  });
+  tippy('#sticky-project', {
+    content: 'Start up web page',
+  });
+
+
+
+  /*ScrollReveal*/
+  ScrollReveal().reveal('#Resume', { delay: 600 });
+  ScrollReveal().reveal('#Resume1', { delay: 800 });
+  ScrollReveal().reveal('#Portfolio', { delay: 1000 });
+
+
   /* Dynamic Age */
   const getAge = () => {
     let birth = new Date("2000-03-08");

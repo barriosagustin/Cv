@@ -11,7 +11,6 @@
 
   <!-- Favicons -->
   <link href="assets/img/favicon-32x32.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -21,6 +20,15 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- ToolTippy -->
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://unpkg.com/tippy.js@6"></script>
+
+  <!-- ScrollReveal -->
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+
 
 </head>
 
@@ -34,11 +42,9 @@
         <a href="https://github.com/barriosagustin?tab=repositories" id="logo1" class="github" target="_blank"><img
             src="assets/img/git blue.png" class="img-fluid"></a>
 
-
         <a href="https://www.linkedin.com/in/agustin-barrios-/?locale=en_US" id="logo2" class="linkedin"
           target="_blank"><img src="assets/img/linkedin blue.png" class="img-fluid"></a>
       </div>
-
 
 
       <nav id="navbar" class="navbar">
@@ -56,7 +62,7 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/test6.jpg)">
+  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/space_picture.jpg)">
     <div class="overlay-itro"></div>
     <div class="hero-content display-table">
       <div class="table-cell">
@@ -94,7 +100,7 @@
                   <div class="about-info">
                     <div>
                       <p><span class="title-s">Name: </span> <span>Agustín Barrios</span></p>
-                      <p><span class="title-s">Profile: </span> <span>full stack developer</span></p>
+                      <p><span class="title-s">Profile: </span> <span>Frontend developer</span></p>
                       <p><span class="title-s">Email: </span> <span>Agusab2000@gmail.com</span></p>
                       <p><span class="title-s">Phone: </span> <span>+54 9 11 62670023</span></p>
                       <p><span class="title-s">Age: </span> <span id="age">22</span></p>
@@ -174,19 +180,28 @@
           <img id="devicon-angular" class="devicon"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
             alt="The logo icon for Angular">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+
+          <img id="devicon-react" class="devicon"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
             alt="The logo icon for react" />
 
           <img id="devicon-jquery" class="devicon"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original-wordmark.svg"
             alt="The logo icon for JQuery">
 
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" />
+          <img id="devicon-git" class="devicon"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="The logo icon for git">
 
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" />
-          <img id="devicon-node" class="devicon"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
-            alt="The logo icon for NodeJS">
+
+          <img id="devicon-csharp" class="devicon"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+            alt="The logo icon for c#" />
+
+
+          <img id="devicon-net" class="devicon"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg"
+            alt="The logo icon for .net">
+
 
           <img id="devicon-mongodb" class="devicon"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg"
@@ -234,12 +249,12 @@
 
 
 
-        <section id="Resume" class="portfolio-mf sect-pt4 route">
+        <section id="Resume1" class="portfolio-mf sect-pt4 route">
           <div class="container">
             <div class="row">
               <div class="col-sm-12">
                 <div class="title-box text-center">
-                  <h3 class="title-a" id="pruebita">
+                  <h3 class="title-a">
                     Education
                   </h3>
                   <!-- <p class="subtitle-a">
@@ -290,7 +305,7 @@
             <div class="row">
               <div class="col-md-4">
                 <div class="card card-Portfolio">
-                  <div class="card-img">
+                  <div class="card-img" id="web-design">
                     <a href="https://barriosagustin.github.io/WebDesign/" target="_blank"><img
                         src="assets/img/Screen_project.png" alt="" class="img-fluid"></a>
                   </div>
@@ -301,7 +316,7 @@
                     <h3 class="card-title"><a href="https://barriosagustin.github.io/WebDesign/" target="_blank">Web
                         Design project</a></h3>
                     <p class="card-description">
-                      Personal project using HTML, CSS AND JAVASCRIPT, a service page with responsive.
+                      Simple web page using html,css, javaScript.
                     </p>
                   </div>
 
@@ -309,7 +324,7 @@
               </div>
               <div class="col-md-4">
                 <div class="card card-Portfolio">
-                  <div class="card-img">
+                  <div class="card-img" id="quick-quiz">
                     <a href="https://barriosagustin.github.io/Quick-Quiz/" target="_blank"><img
                         src="assets/img/Quick_quiz_img.png" alt="" class="img-fluid"></a>
                   </div>
@@ -329,7 +344,7 @@
               </div>
               <div class="col-md-4">
                 <div class="card card-Portfolio">
-                  <div class="card-img">
+                  <div class="card-img" id="image-finder">
                     <a href="https://barriosagustin.github.io/Buscador-de-imagenes/" target="_blank"><img
                         src="assets/img/Code_img.png" alt="" class="img-fluid"></a>
                   </div>
@@ -351,7 +366,7 @@
               </div>
               <div class="col-md-4">
                 <div class="card card-Portfolio">
-                  <div class="card-img">
+                  <div class="card-img" id="sticky-project">
                     <a href="https://barriosagustin.github.io/Sticky-Menu/" target="_blank"><img
                         src="assets/img/sticky_project.png" alt="" class="img-fluid"></a>
                   </div>

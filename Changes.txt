@@ -1,3 +1,10 @@
+>04/09/2022
+-Se agrega toolTippy
+-Se agrega efecto scrollReveall
+
+
+
+
 >24/08/2022
 -Cambio de información en tarjeta "education"
 -se cambian nombres de ID en el navbar
