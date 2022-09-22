@@ -1,8 +1,10 @@
+>22/09/2022
+-nueva sección "certificates"
+-cambios de tecnologias en la sección "skills"
+
 >04/09/2022
 -Se agrega toolTippy
 -Se agrega efecto scrollReveall
-
-
 
 
 >24/08/2022

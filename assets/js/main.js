@@ -50,7 +50,15 @@
   tippy('#sticky-project', {
     content: 'Start up web page',
   });
-
+  tippy('#devicon-typescript', {
+    content: 'Typescript',
+  });
+  tippy('#csharp-certificate', {
+    content: 'NET core web programming',
+  });
+  tippy('#javascript-certificate', {
+    content: 'JavaScript algorithms and Data structures',
+  });
 
 
   /*ScrollReveal*/
