@@ -50,6 +50,12 @@
   tippy('#sticky-project', {
     content: 'Start up web page',
   });
+  tippy('#angular-material', {
+    content: 'CRUD angularMaterial',
+  });
+  tippy('#angular-Ecommerce', {
+    content: 'AngularEcommerce',
+  });
   tippy('#devicon-typescript', {
     content: 'Typescript',
   });
@@ -69,13 +75,14 @@
 
   /* Dynamic Age */
   const getAge = () => {
+    debugger;
     let birth = new Date("2000-03-08");
     let today = new Date();
     let diffMonths = today.getMonth() - birth.getMonth();
     let age = today.getFullYear() - birth.getFullYear();
     if (
       diffMonths < 0 ||
-      (diffMonths === 0 && hoy.getDate() < diffMonths.getDate())
+      (diffMonths === 0 && today.getDate() < diffMonths)
     ) {
       age--;
     }
