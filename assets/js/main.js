@@ -65,6 +65,9 @@
   tippy('#javascript-certificate', {
     content: 'JavaScript algorithms and Data structures',
   });
+  tippy('#angular-certificate', {
+    content: 'Angular course',
+  });
 
 
   /*ScrollReveal*/
