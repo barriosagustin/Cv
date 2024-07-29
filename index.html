@@ -1,560 +1,716 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Agustin Barrios</title>
+    <meta content="Frontend developer, website, portfolio" name="description" />
+    <meta content="HTML, CSS, JAVASCRIPT, Bootstrap" name="keywords" />
 
-  <title>Agustin Barrios</title>
-  <meta content="Frontend developer, website, portfolio" name="description">
-  <meta content="HTML, CSS, JAVASCRIPT, Bootstrap" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/favicon-32x32.png" rel="icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon-32x32.png" rel="icon">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+    <!-- ToolTippy -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
 
-  <!-- ToolTippy -->
-  <script src="https://unpkg.com/@popperjs/core@2"></script>
-  <script src="https://unpkg.com/tippy.js@6"></script>
+    <!-- ScrollReveal -->
 
-  <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
 
-  <script src="https://unpkg.com/scrollreveal"></script>
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center justify-content-between">
+        <div class="logos">
+          <a
+            href="https://github.com/barriosagustin?tab=repositories"
+            id="logo1"
+            class="github"
+            target="_blank"
+            ><img src="assets/img/git blue.png" class="img-fluid"
+          /></a>
 
+          <a
+            href="https://www.linkedin.com/in/agustin-barrios-/?locale=en_US"
+            id="logo2"
+            class="linkedin"
+            target="_blank"
+            ><img src="assets/img/linkedin blue.png" class="img-fluid"
+          /></a>
+        </div>
 
-</head>
-
-<body>
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <div class="logos">
-        <a href="https://github.com/barriosagustin?tab=repositories" id="logo1" class="github" target="_blank"><img
-            src="assets/img/git blue.png" class="img-fluid"></a>
-
-        <a href="https://www.linkedin.com/in/agustin-barrios-/?locale=en_US" id="logo2" class="linkedin"
-          target="_blank"><img src="assets/img/linkedin blue.png" class="img-fluid"></a>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="#about">About</a></li>
+            <li><a class="nav-link scrollto" href="#Skills">Skills</a></li>
+            <li><a class="nav-link scrollto" href="#Resume">Resume</a></li>
+            <li>
+              <a class="nav-link scrollto" href="#Portfolio">Portfolio</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="#Certificates">Certificates</a>
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
       </div>
+    </header>
+    <!-- End Header -->
 
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#Skills">Skills</a></li>
-          <li><a class="nav-link scrollto " href="#Resume">Resume</a></li>
-          <li><a class="nav-link scrollto " href="#Portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto " href="#Certificates">Certificates</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/space_picture.jpg)">
-    <div class="overlay-itro"></div>
-    <div class="hero-content display-table">
-      <div class="table-cell">
-        <div class="container">
-          <!--<p class="display-6 color-d">Hello, world!</p>-->
-         <h1><b class="hero-title mb-4">I am Agustin Barrios</b></h1>
-          <p class="hero-subtitle"><span class="typed" data-typed-items="Frontend developer"></span>
-          </p>
-          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+    <!-- ======= Hero Section ======= -->
+    <div
+      id="hero"
+      class="hero route bg-image"
+      style="background-image: url(assets/img/space_picture.jpg)"
+    >
+      <div class="overlay-itro"></div>
+      <div class="hero-content display-table">
+        <div class="table-cell">
+          <div class="container">
+            <!--<p class="display-6 color-d">Hello, world!</p>-->
+            <h1><b class="hero-title mb-4">I am Agustin Barrios</b></h1>
+            <p class="hero-subtitle">
+              <span class="typed" data-typed-items="Frontend developer"></span>
+            </p>
+            <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+          </div>
         </div>
       </div>
     </div>
-  </div><!-- End Hero Section -->
+    <!-- End Hero Section -->
 
-  <main id="main">
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about-mf sect-pt4 route">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="box-shadow-full">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="row">
+                      <div class="col-sm-6 col-md-5">
+                        <div class="about-img">
+                          <img
+                            src="assets/img/FotoAgus (2).jpeg"
+                            class="img-fluid rounded b-shadow-a"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-7"></div>
+                    </div>
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="box-shadow-full">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="row">
-                    <div class="col-sm-6 col-md-5">
-                      <div class="about-img">
-                        <img src="assets/img/FotoAgus (2).jpeg" class="img-fluid rounded b-shadow-a" alt="">
+                    <div class="about-info">
+                      <div>
+                        <p>
+                          <span class="title-s">Name: </span>
+                          <span>Agustín Barrios</span>
+                        </p>
+                        <p>
+                          <span class="title-s">Profile: </span>
+                          <span>Frontend developer</span>
+                        </p>
+                        <p>
+                          <span class="title-s">Email: </span>
+                          <span>Agusab2000@gmail.com</span>
+                        </p>
+                        <p>
+                          <span class="title-s">Phone: </span>
+                          <span>+39 347 551 3170</span>
+                        </p>
+                        <p>
+                          <span class="title-s">Age: </span>
+                          <span id="age"></span>
+                        </p>
+                        <p>
+                          <span class="title-s">City: </span>
+                          <span>Chieti, Italy</span>
+                        </p>
                       </div>
                     </div>
-                    <div class="col-sm-6 col-md-7">
-                    </div>
                   </div>
-
-                  <div class="about-info">
-                    <div>
-                      <p><span class="title-s">Name: </span> <span>Agustín Barrios</span></p>
-                      <p><span class="title-s">Profile: </span> <span>Frontend developer</span></p>
-                      <p><span class="title-s">Email: </span> <span>Agusab2000@gmail.com</span></p>
-                      <p><span class="title-s">Phone: </span> <span>+39 347 551 3170</span></p>
-                      <p><span class="title-s">Age: </span> <span id="age"></span></p>
-                      <p><span class="title-s">City: </span> <span>Chieti, Italy</span></p>
+                  <div class="col-md-6">
+                    <div class="about-me pt-4 pt-md-0">
+                      <div class="title-box-2">
+                        <h5 class="title-left">About me</h5>
+                      </div>
+                      <p class="lead">
+                        Hello everyone, I am a highly skilled and experienced
+                        software developer dedicated to continuous learning and
+                        professional growth. In addition to my current work, I
+                        actively pursue opportunities to expand my knowledge in
+                        various technologies, programming languages, and diverse
+                        experiences.
+                      </p>
+                      <p class="lead">
+                        I consistently engage in relevant courses and training
+                        programs to enhance my existing skills and acquire new
+                        ones. My commitment to self-improvement enables me to
+                        stay up-to-date with the latest industry trends and best
+                        practices.
+                      </p>
+                      <p class="lead">
+                        Thank you for considering my profile. I look forward to
+                        contributing my expertise to exciting projects and
+                        collaborating with like-minded professionals, <br />
+                        Best regards.
+                      </p>
+                      <a
+                        href="/assets/documents/Resume-AgustinBarriosEN.pdf"
+                        id="cv"
+                        target="_blank"
+                        download=""
+                        >Download CV</a
+                      >
+                      <a
+                        href="/assets/documents/Resume-AgustinBarriosIT.pdf"
+                        id="cv"
+                        target="_blank"
+                        download=""
+                        >Scarica CV</a
+                      >
                     </div>
-
-
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="about-me pt-4 pt-md-0">
-                    <div class="title-box-2">
-                      <h5 class="title-left">
-                        About me
-                      </h5>
-                    </div>
-                    <p class="lead">
-                      Hello everyone,
-                      I am a highly skilled and experienced software developer dedicated to continuous learning and professional growth. In addition to my current work, I actively pursue opportunities to expand my knowledge in various technologies, programming languages, and diverse experiences.
-                    </p>
-                    <p class="lead">
-                      I consistently engage in relevant courses and training programs to enhance my existing skills and acquire new ones. My commitment to self-improvement enables me to stay up-to-date with the latest industry trends and best practices.
-                    </p>
-                    <p class="lead">
-                      Thank you for considering my profile. I look forward to contributing my expertise to exciting projects and collaborating with like-minded professionals, <br>
-                      Best regards.
-                    </p>
-                    <a href="/assets/documents/Resume-AgustinBarriosEN.pdf" id="cv" target="_blank" download="">Download CV</a>
-                    <a href="/assets/documents/Resume-AgustinBarriosIT.pdf" id="cv" target="_blank" download="">Scarica CV</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section><!-- End About Section -->
+      </section>
+      <!-- End About Section -->
 
-
-    </section><!-- End Portfolio Section -->
-
-    <!-- ======= Skills Section ======= -->
-    <section id="Skills" class="portfolio-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Skills
-              </h3>
-              <p class="subtitle-a">
-                These are some of the technologies I work on professionaly and some of them I use in my personal
-                projects.
-              </p>
-              <div class="line-mf"></div>
+      <!-- ======= Skills Section ======= -->
+      <section id="Skills" class="portfolio-mf sect-pt4 route">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="title-box text-center">
+                <h3 class="title-a">Skills</h3>
+                <p class="subtitle-a">
+                  These are some of the technologies I work on professionaly and
+                  some of them I use in my personal projects.
+                </p>
+                <div class="line-mf"></div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-12 col-md-12 col-sm-10 col-xs-12 skillsGrid aos-init aos-animate" data-aos="fade-up">
-          <img id="devicon-html" class="devicon"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
-            alt="The logo icon for HTML 5">
-          <img id="devicon-css" class="devicon"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
-            alt="The logo icon for Javascript">
-          <img id="devicon-javascript" class="devicon"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-            alt="The logo icon for Angular">
-          
-          <!-- <img id="devicon-typescript" class="devicon"
+          <div
+            class="col-lg-12 col-md-12 col-sm-10 col-xs-12 skillsGrid aos-init aos-animate"
+            data-aos="fade-up"
+          >
+            <img
+              id="devicon-html"
+              class="devicon"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
+              alt="The logo icon for HTML 5"
+            />
+            <img
+              id="devicon-css"
+              class="devicon"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
+              alt="The logo icon for Javascript"
+            />
+            <img
+              id="devicon-javascript"
+              class="devicon"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+              alt="The logo icon for Angular"
+            />
+
+            <!-- <img id="devicon-typescript" class="devicon"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
             alt="The logo icon for Typescript"> -->
-            <img id="devicon-jquery" class="devicon"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original-wordmark.svg"
-            alt="The logo icon for JQuery">
+            <img
+              id="devicon-jquery"
+              class="devicon"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original-wordmark.svg"
+              alt="The logo icon for JQuery"
+            />
 
-            <img id="devicon-typescript" class="devicon"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
-                        
-              <img id="devicon-angular" class="devicon"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
-                alt="The logo icon for Angular">
+            <img
+              id="devicon-typescript"
+              class="devicon"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+            />
 
-                <img id="devicon-bootstrap" class="devicon"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg"
-            alt="The logo icon for Bootstrap">
-         
+            <img
+              id="devicon-angular"
+              class="devicon"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
+              alt="The logo icon for Angular"
+            />
 
-          <img id="devicon-git" class="devicon"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="The logo icon for git">
+            <img
+              id="devicon-bootstrap"
+              class="devicon"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg"
+              alt="The logo icon for Bootstrap"
+            />
 
+            <img
+              id="devicon-git"
+              class="devicon"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+              alt="The logo icon for git"
+            />
 
-          <img id="devicon-csharp" class="devicon"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
-            alt="The logo icon for c#" />
+            <img
+              id="devicon-csharp"
+              class="devicon"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+              alt="The logo icon for c#"
+            />
 
+            <img
+              id="devicon-net"
+              class="devicon"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg"
+              alt="The logo icon for .net"
+            />
 
-          <img id="devicon-net" class="devicon"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg"
-            alt="The logo icon for .net">
-
-
-          <img id="devicon-mongodb" class="devicon"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg"
-            alt="The logo icon for MongoDB">
-          <img id="devicon-mssql" class="devicon"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg"
-            alt="The logo icon for MSSQL">
-        </div>
-
-    </section>
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="Resume" class="portfolio-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Professional experience
-              </h3>
-              <div class="line-mf"></div>
-            </div>
+            <img
+              id="devicon-mongodb"
+              class="devicon"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg"
+              alt="The logo icon for MongoDB"
+            />
+            <img
+              id="devicon-mssql"
+              class="devicon"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg"
+              alt="The logo icon for MSSQL"
+            />
           </div>
         </div>
+      </section>
 
-        <!-- TIMELINE SECTION -->
-        <div class="timeline">
-          <div class="outer">
-            <div class="card">
-              <div class="info">
-                <h3 class="title">Frontend Developer</h3>
-                <h4> <a href="https://expand.com.uy/" target="_blank"> Expand</a>
-                  <p class="LocationH4">(Montevideo, Uruguay)</p>
-                </h4>
-                <h5>July 2023 - Present</h5>
-                • Responsibilities: Component creation, code maintenance, and scalability. <br>
-                • Interface enhancements and optimization. <br>
-                • Proficient management of observables and HTTP requests.<br>
-                Technologies: <br>
-                • Angular <br> 
-                • Angular Material <br>
-                • RxJs <br>
-              </div>
-            </div>
-            <div class="card">
-              <div class="info">
-                <h3 class="title">Full stack Developer</h3>
-                <h4> <a href="https://www.cartasur.com.ar/" target="_blank"> Cartasur Cards S.A</a>
-                  <p class="LocationH4">(Buenos Aires, Argentina)</p>
-                </h4>
-                <h5>February 2022 - July 2023</h5>
-                <p>Backend: <br>
-                  • Application development using C#, SQL Server, and .NET Core. <br>
-                  • Creation of stored procedures, triggers, and jobs in SQL Server to implement complex business logic and automate tasks. <br>
-                  
-                  Frontend: <br>
-                  • Development of internal applications using Angular, TypeScript, Bootstrap, and Angular Material. <br>
-                  • Utilization of RxJS for managing asynchronous data flows and reactive programming. <br>
-                  • Design and development of attractive and responsive user interfaces using Angular features such as directives, pipes, and data binding. </p>
+      <!-- ======= Portfolio Section ======= -->
+      <section id="Resume" class="portfolio-mf sect-pt4 route">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="title-box text-center">
+                <h3 class="title-a">Professional experience</h3>
+                <div class="line-mf"></div>
               </div>
             </div>
           </div>
-        </div>
 
-
-
-        <section id="Resume1" class="portfolio-mf sect-pt4 route">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12">
-                <div class="title-box text-center">
-                  <h3 class="title-a">
-                    Education
-                  </h3>
-                  <div class="line-mf"></div>
+          <!-- TIMELINE SECTION -->
+          <div class="timeline">
+            <div class="outer">
+              <div class="card">
+                <div class="info">
+                  <h3 class="title">Frontend Developer</h3>
+                  <h4>
+                    <a href="https://expand.com.uy/" target="_blank"> Expand Omnichannel</a>
+                    <p class="LocationH4">(Montevideo, Uruguay)</p>
+                  </h4>
+                  <h5>July 2023 - Present</h5>
+                  • Responsibilities: Component creation, code maintenance, and
+                  scalability. <br />
+                  • Interface enhancements and optimization. <br />
+                  • Proficient management of observables and HTTP requests.<br />
+                  Technologies: <br />
+                  • Angular <br />
+                  • Angular Material <br />
+                  • RxJs <br />
                 </div>
               </div>
-            </div>
+              <div class="card">
+                <div class="info">
+                  <h3 class="title">Full stack Developer</h3>
+                  <h4>
+                    <a href="https://www.cartasur.com.ar/" target="_blank">
+                      Cartasur Cards S.A</a
+                    >
+                    <p class="LocationH4">(Buenos Aires, Argentina)</p>
+                  </h4>
+                  <h5>February 2022 - July 2023</h5>
+                  <p>
+                    Backend: <br />
+                    • Application development using C#, SQL Server, and .NET
+                    Core. <br />
+                    • Creation of stored procedures, triggers, and jobs in SQL
+                    Server to implement complex business logic and automate
+                    tasks. <br />
 
-            <!-- TIMELINE SECTION -->
-            <div class="timeline">
-              <div class="outer">
-                <div class="card">
-                  <div class="info">
-                    <h3 class="title">Master en Angular</h3>
-                    <h4> <a href="https://www.udemy.com/" target="_blank">Udemy</a>
-                      <p class="LocationH4">(Buenos Aires, Argentina)</p>
-                    </h4>
-                    <h5>May 2023</h5>
-                    <p>components, services, routing, Angular Material, state management with RxJS.</p>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="info">
-                    <h3 class="title">C# .NET developer</h3>
-                    <h4> <a href="https://www.educacionit.com/" target="_blank">EducacionIT</a>
-                      <p class="LocationH4">(Buenos Aires, Argentina)</p>
-                    </h4>
-                    <h5>June 2022 - October 2022</h5>
-                    <p>Development of web applications that integrate Bootstrap, ADO.NET, Entity Framework, and LINQ.</p>
-                  </div>
-                </div>
-                </div>
-                </div>
-
-        </section>
-
-
-
-
-
-
-        <!-- ======= Portfolio Section ======= -->
-        <section id="Portfolio" class="Portfolio-mf sect-pt4 route">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12">
-                <div class="title-box text-center">
-                  <h3 class="title-a">
-                    Portfolio
-                  </h3>
-                  <p class="subtitle-a">
-                    Projects I've been working on.
+                    Frontend: <br />
+                    • Development of internal applications using Angular,
+                    TypeScript, Bootstrap, and Angular Material. <br />
+                    • Utilization of RxJS for managing asynchronous data flows
+                    and reactive programming. <br />
+                    • Design and development of attractive and responsive user
+                    interfaces using Angular features such as directives, pipes,
+                    and data binding.
                   </p>
-                  <div class="line-mf"></div>
                 </div>
               </div>
             </div>
-            <div class="row">
+          </div>
 
-              <div class="col-md-4">
-                <div class="card card-Portfolio">
-                  <div class="card-img" id="angular-material">
-                    <a href="https://angularmaterialcrud.netlify.app/" target="_blank"><img
-                        src="assets/img/angularmaterial-img.png" alt="" class="img-fluid"></a>
-                  </div>
-                  <div class="card-body">
-                    <div class="card-category-box">
-
-                    </div>
-                    <h3 class="card-title"><a href="https://angularmaterialcrud.netlify.app/" target="_blank">
-                        CRUD angular material
-                      </a></h3>
-                    <p class="card-description">
-                      Filter,sort and pagination. Fake login, add and edit users.
-                    </p>
+          <!-- ======= Education Section ======= -->
+          <section id="Resume1" class="portfolio-mf sect-pt4 route">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="title-box text-center">
+                    <h3 class="title-a">Education</h3>
+                    <div class="line-mf"></div>
                   </div>
                 </div>
               </div>
 
-              <div class="col-md-4">
-                <div class="card card-Portfolio">
-                  <div class="card-img" id="angular-Ecommerce">
-                    <a href="https://barriosagustin.github.io/angular-ecommerce/home" target="_blank"><img
-                        src="assets/img/angularEcommerce.png" alt="" class="img-fluid"></a>
-                  </div>
-                  <div class="card-body">
-                    <div class="card-category-box">
-
+              <!-- TIMELINE SECTION -->
+              <div class="timeline">
+                <div class="outer">
+                  <div class="card">
+                    <div class="info">
+                      <h3 class="title">Master en Angular</h3>
+                      <h4>
+                        <a href="https://www.udemy.com/" target="_blank"
+                          >Udemy</a
+                        >
+                        <p class="LocationH4">(Buenos Aires, Argentina)</p>
+                      </h4>
+                      <h5>May 2023</h5>
+                      <p>
+                        components, services, routing, Angular Material, state
+                        management with RxJS.
+                      </p>
                     </div>
-                    <h3 class="card-title"><a href="https://barriosagustin.github.io/angular-ecommerce/home" target="_blank">
-                        Angular Ecommerce
-                      </a></h3>
-                    <p class="card-description">
-                      A personal project, store that allows you to add products to cart.
-                    </p>
+                  </div>
+                  <div class="card">
+                    <div class="info">
+                      <h3 class="title">C# .NET developer</h3>
+                      <h4>
+                        <a href="https://www.educacionit.com/" target="_blank"
+                          >EducacionIT</a
+                        >
+                        <p class="LocationH4">(Buenos Aires, Argentina)</p>
+                      </h4>
+                      <h5>June 2022 - October 2022</h5>
+                      <p>
+                        Development of web applications that integrate
+                        Bootstrap, ADO.NET, Entity Framework, and LINQ.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
+            </div>
+          </section>
 
+          <!-- ======= End Education Section ======= -->
 
-              <div class="col-md-4">
-                <div class="card card-Portfolio">
-                  <div class="card-img" id="quick-quiz">
-                    <a href="https://barriosagustin.github.io/Quick-Quiz/" target="_blank"><img
-                        src="assets/img/Quick_quiz_img.png" alt="" class="img-fluid"></a>
-                  </div>
-                  <div class="card-body">
-                    <div class="card-category-box">
-
-                    </div>
-                    <h3 class="card-title"><a href="https://barriosagustin.github.io/Quick-Quiz/" target="_blank">Quick
-                        Quiz
-                      </a></h3>
-                    <p class="card-description">
-                      A mini game made with JavaScript and local storage.
-                    </p>
-                  </div>
-
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card card-Portfolio">
-                  <div class="card-img" id="image-finder">
-                    <a href="https://barriosagustin.github.io/Buscador-de-imagenes/" target="_blank"><img
-                        src="assets/img/Code_img.png" alt="" class="img-fluid"></a>
-                  </div>
-                  <div class="card-body">
-                    <div class="card-category-box">
-
-                    </div>
-                    <h3 class="card-title"><a href="https://barriosagustin.github.io/Buscador-de-imagenes/"
-                        target="_blank">image finder
-                      </a></h3>
-                    <p class="card-description">
-                      Project using REACT that searches images in the API service.
-                    </p>
+          <!-- ======= Portfolio Section ======= -->
+          <div id="Portfolio" class="Portfolio-mf sect-pt4 route">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="title-box text-center">
+                    <h3 class="title-a">Portfolio</h3>
+                    <p class="subtitle-a">Projects I've been working on.</p>
+                    <div class="line-mf"></div>
                   </div>
                 </div>
               </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card card-Portfolio">
+                    <div class="card-img" id="angular-material">
+                      <a
+                        href="https://angularmaterialcrud.netlify.app/"
+                        target="_blank"
+                        ><img
+                          src="assets/img/angularmaterial-img.png"
+                          alt=""
+                          class="img-fluid"
+                      /></a>
+                    </div>
+                    <div class="card-body">
+                      <div class="card-category-box"></div>
+                      <h3 class="card-title">
+                        <a
+                          href="https://angularmaterialcrud.netlify.app/"
+                          target="_blank"
+                        >
+                          CRUD angular material
+                        </a>
+                      </h3>
+                      <p class="card-description">
+                        Filter,sort and pagination. Fake login, add and edit
+                        users.
+                      </p>
+                    </div>
+                  </div>
+                </div>
 
                 <div class="col-md-4">
                   <div class="card card-Portfolio">
-                    <div class="card-img" id="web-design">
-                      <a href="https://barriosagustin.github.io/WebDesign/" target="_blank"><img
-                          src="assets/img/Screen_project.png" alt="" class="img-fluid"></a>
+                    <div class="card-img" id="angular-Ecommerce">
+                      <a
+                        href="https://barriosagustin.github.io/angular-ecommerce/home"
+                        target="_blank"
+                        ><img
+                          src="assets/img/angularEcommerce.png"
+                          alt=""
+                          class="img-fluid"
+                      /></a>
                     </div>
                     <div class="card-body">
-                      <div class="card-category-box">
-  
-                      </div>
-                      <h3 class="card-title"><a href="https://barriosagustin.github.io/WebDesign/" target="_blank">Web
-                          Design project</a></h3>
+                      <div class="card-category-box"></div>
+                      <h3 class="card-title">
+                        <a
+                          href="https://barriosagustin.github.io/angular-ecommerce/home"
+                          target="_blank"
+                        >
+                          Angular Ecommerce
+                        </a>
+                      </h3>
                       <p class="card-description">
-                        Simple web page using html,css, javaScript.
+                        A personal project, store that allows you to add
+                        products to cart.
                       </p>
                     </div>
-  
                   </div>
                 </div>
 
-              <div class="col-md-4">
-                <div class="card card-Portfolio">
-                  <div class="card-img" id="sticky-project">
-                    <a href="https://barriosagustin.github.io/Sticky-Menu/" target="_blank"><img
-                        src="assets/img/sticky_project.png" alt="" class="img-fluid"></a>
-                  </div>
-                  <div class="card-body">
-                    <div class="card-category-box">
-
+                <div class="col-md-4">
+                  <div class="card card-Portfolio">
+                    <div class="card-img" id="quick-quiz">
+                      <a
+                        href="https://barriosagustin.github.io/Quick-Quiz/"
+                        target="_blank"
+                        ><img
+                          src="assets/img/Quick_quiz_img.png"
+                          alt=""
+                          class="img-fluid"
+                      /></a>
                     </div>
-                    <h3 class="card-title"><a href="https://barriosagustin.github.io/Sticky-Menu/" target="_blank">Start
-                        Up
-                        web page
-                      </a></h3>
-                    <p class="card-description">
-                      Web page using smooth and sticky css properties.
-                    </p>
+                    <div class="card-body">
+                      <div class="card-category-box"></div>
+                      <h3 class="card-title">
+                        <a
+                          href="https://barriosagustin.github.io/Quick-Quiz/"
+                          target="_blank"
+                          >Quick Quiz
+                        </a>
+                      </h3>
+                      <p class="card-description">
+                        A mini game made with JavaScript and local storage.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card card-Portfolio">
+                    <div class="card-img" id="image-finder">
+                      <a
+                        href="https://barriosagustin.github.io/Buscador-de-imagenes/"
+                        target="_blank"
+                        ><img
+                          src="assets/img/Code_img.png"
+                          alt=""
+                          class="img-fluid"
+                      /></a>
+                    </div>
+                    <div class="card-body">
+                      <div class="card-category-box"></div>
+                      <h3 class="card-title">
+                        <a
+                          href="https://barriosagustin.github.io/Buscador-de-imagenes/"
+                          target="_blank"
+                          >image finder
+                        </a>
+                      </h3>
+                      <p class="card-description">
+                        Project using REACT that searches images in the API
+                        service.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card card-Portfolio">
+                    <div class="card-img" id="learning-academy">
+                      <a
+                        href="https://learnacademyreact.netlify.app/"
+                        target="_blank"
+                        ><img
+                          src="assets/img/learning-academy-img1.png"
+                          alt=""
+                          class="img-fluid"
+                      /></a>
+                    </div>
+                    <div class="card-body">
+                      <div class="card-category-box"></div>
+                      <h3 class="card-title">
+                        <a
+                          href="https://learnacademyreact.netlify.app/"
+                          target="_blank"
+                          >MERN stack</a
+                        >
+                      </h3>
+                      <p class="card-description">
+                        Learning Academy. A proyect to Upload and Watch courses.
+                        Deploy in netlify for FE, Vercel for BE and Atlas for
+                        mongoDB.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card card-Portfolio">
+                    <div class="card-img" id="sticky-project">
+                      <a
+                        href="https://barriosagustin.github.io/Sticky-Menu/"
+                        target="_blank"
+                        ><img
+                          src="assets/img/sticky_project.png"
+                          alt=""
+                          class="img-fluid"
+                      /></a>
+                    </div>
+                    <div class="card-body">
+                      <div class="card-category-box"></div>
+                      <h3 class="card-title">
+                        <a
+                          href="https://barriosagustin.github.io/Sticky-Menu/"
+                          target="_blank"
+                          >Start Up web page
+                        </a>
+                      </h3>
+                      <p class="card-description">
+                        Web page using smooth and sticky css properties.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
-              
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Portfolio Section -->
+
+      <!-- ======= Certificate Section ======= -->
+      <section id="Certificates" class="Certificate-mf sect-pt4 route">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="title-box text-center">
+                <h3 class="title-a">Certificates</h3>
+                <div class="line-mf"></div>
               </div>
+            </div>
 
-        </section><!-- End Portfolio Section -->
+            <div class="col-md-4">
+              <div class="card card-Certificate">
+                <div class="card-img" id="csharp-certificate">
+                  <img
+                    src="assets/img/csharp-certificate.png"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="card-body">
+                  <div class="card-category-box"></div>
+                </div>
+              </div>
+            </div>
 
+            <div class="col-md-4">
+              <div class="card card-Certificate">
+                <div class="card-img" id="javascript-certificate">
+                  <img
+                    src="assets/img/javascript-certificateone.png"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="card-body">
+                  <div class="card-category-box"></div>
+                </div>
+              </div>
+            </div>
 
+            <div class="col-md-4">
+              <div class="card card-Certificate">
+                <div class="card-img" id="angular-certificate">
+                  <img
+                    src="assets/img/angular-certificate.png"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="card-body">
+                  <div class="card-category-box"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- End #main -->
 
-
-                <!-- ======= Certificate Section ======= -->
-                <section id="Certificates" class="Certificate-mf sect-pt4 route">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <div class="title-box text-center">
-                          <h3 class="title-a">
-                            Certificates
-                          </h3>
-                          <div class="line-mf"></div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="row">
-                      <div class="col-md-4">
-                        <div class="card card-Portfolio">
-                          <div class="card-img" id="csharp-certificate">
-                            <img
-                                src="assets/img/csharp-certificate.png" alt="" class="img-fluid">
-                          </div>
-                          <div class="card-body">
-                            <div class="card-category-box">
-                            </div>                         
-                          </div>        
-                        </div>
-                      </div>
-
-
-                      <div class="col-md-4">
-                        <div class="card card-Portfolio">
-                          <div class="card-img" id="javascript-certificate">
-                            <img
-                                src="assets/img/javascript-certificateone.png" alt="" class="img-fluid">
-                          </div>
-                          <div class="card-body">
-                            <div class="card-category-box">
-        
-                            </div>                                               
-                          </div>       
-                        </div>
-                      </div>
-
-                      <div class="col-md-4">
-                        <div class="card card-Portfolio">
-                          <div class="card-img" id="angular-certificate">
-                            <img
-                                src="assets/img/angular-certificate.png" alt="" class="img-fluid">
-                          </div>
-                          <div class="card-body">
-                            <div class="card-category-box">        
-                            </div>                                               
-                          </div>       
-                        </div>
-                      </div>                      
-
-
-
-
-                    </section>
-              
-
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="copyright-box">
-            <!-- <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p> -->
+    <!-- ======= Footer ======= -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="copyright-box">
+              <!-- <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p> -->
+            </div>
           </div>
         </div>
       </div>
-  </footer><!-- End  Footer -->
+    </footer>
+    <!-- End  Footer -->
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+    <div id="preloader"></div>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-
-</body>
-
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

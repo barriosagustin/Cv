@@ -38,8 +38,8 @@
   tippy('#devicon-mssql', {
     content: 'SqlServer',
   });
-  tippy('#web-design', {
-    content: 'Web design project',
+  tippy('#learning-academy', {
+    content: 'Course App',
   });
   tippy('#quick-quiz', {
     content: 'Quick quiz game',
@@ -78,7 +78,6 @@
 
   /* Dynamic Age */
   const getAge = () => {
-    debugger;
     let birth = new Date("2000-03-08");
     let today = new Date();
     let diffMonths = today.getMonth() - birth.getMonth();
